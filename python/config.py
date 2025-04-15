@@ -26,8 +26,8 @@ config={
     #stepSize=0.01000000
     # округление для LOT_SIZE
     'lot_size_round':"0",
-    'api_key':"6gryfLNmtKgxTWe3gMT0yY9lNPGwwwkje6Gh3kQUWSIVvd5fheQAyp0wEUAvv9hg",
-    'secret_key':"jg5QzcIsSMz8L8GP0VuAL4CyUEegunleWrY5Ah7mRdICVaHNBN3HoB25HxuXHBWx",
+    'api_key':"",
+    'secret_key':"",
     # время ожидания API binance
     'recvWindow':"5000",
     #----------------Tables----------------------------------------------------
@@ -40,9 +40,9 @@ config={
    'log_file':"logs/log.log",
     #-------------Data base access----------------------------------------------
     'host' :"localhost",
-    'user' : "twitter",
-    'passwd': "7777777mv!",
-    'db' : "twitter"
+    'user' : "",
+    'passwd': "",
+    'db' : ""
     }
 
 #PID- 17541

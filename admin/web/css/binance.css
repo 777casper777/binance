@@ -1,0 +1,39 @@
+.menu{
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    margin-right: 30px;
+}
+.type{
+    display: inline-block;
+    font-size: 14px;
+    color: #0000aa;
+    margin-right: 5px;
+}
+a{
+    text-decoration: black;
+}
+.form_search{
+  margin-bottom: 30px;
+}
+.id{
+    font-size: 16px;
+}
+.config_form{
+    width: 40%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.checkbox_config{
+    margin-left: 1.5%;
+
+}

@@ -1,0 +1,2 @@
+SELECT * FROM `twitter` INNER JOIN currency ON twitter.id = currency.twitter_id
+На сервере настроить переменные Mysql

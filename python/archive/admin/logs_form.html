@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Логи парсера</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/datapicker.js"></script>
+</head>
+<body>
+<form name="form_parser" action="index.php" method="post" style="margin-bottom:1% ">
+    <table>
+        <tr>
+            <td>От:
+                <input type="text" id="datepicker_for" name="date_for" value="<?=$date_for_post?>">
+            </td>
+            <td>До:
+                <input type="text" id="datepicker_to" name="date_to" value="<?=$date_to_post?>">
+            </td>
+            <td>URL:
+                <select name="site">
+                    <?foreach ($sites as $key=>$value) { ?>
+                    <option value="<?=$value ?>"><?=$value?></option>
+                    <?}?>
+                </select>
+            </td>
+            <td>
+                <button type="submit" value="Старт">Старт</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<?=$content;?>
+
+</body>
+</html>
